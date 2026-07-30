@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>SoftClean Lavanderia — Castanhal-PA | Lavagem, Secagem e Passadoria</title>
+<meta name="description" content="Lavanderia em Castanhal-PA com nota 4,9★. Lavagem, secagem e passadoria profissionalizada. Roupas cheirosas, bem passadas e entregues no prazo. Fale no WhatsApp.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #f6fafd; color: #12303f; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  * { box-sizing: border-box; }
+  a { color: #1c7fa8; text-decoration: none; }
+  a:hover { color: #12303f; }
+  @keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"DryCleaningOrLaundry","name":"SoftClean Lavanderia","image":"","telephone":"+55 91 99814-7060","address":{"@type":"PostalAddress","streetAddress":"R. Cmte. Francisco de Assis, 2271 - Estrela","addressLocality":"Castanhal","addressRegion":"PA","postalCode":"68743-100","addressCountry":"BR"},"openingHours":"Mo-Sa 08:00-18:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"28"},"url":"https://wa.me/5591998147060"}
+</script>
+</helmet>
+
+<div style="max-width:100%;overflow-x:hidden">
+
+  <header style="position:sticky;top:0;z-index:50;background:rgba(246,250,253,.88);backdrop-filter:blur(12px);border-bottom:1px solid #e2edf4">
+    <div style="max-width:1180px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:24px;justify-content:space-between">
+      <a href="#inicio" style="font-family:'Outfit',sans-serif;font-weight:700;font-size:22px;letter-spacing:-.02em;color:#12303f;display:flex;align-items:center;gap:9px">
+        <span style="width:30px;height:30px;border-radius:10px;background:#7fd4c1;display:inline-flex;align-items:center;justify-content:center">
+          <span style="width:13px;height:13px;border-radius:50%;border:3px solid #12303f;display:block"></span>
+        </span>
+        Soft<span style="color:#1c7fa8">Clean</span>
+      </a>
+      <nav style="display:flex;align-items:center;gap:26px;font-size:15px;font-weight:500;flex-wrap:wrap">
+        <a href="#servicos" style="color:#3c5c6b" style-hover="color:#12303f">Serviços</a>
+        <a href="#avaliacoes" style="color:#3c5c6b" style-hover="color:#12303f">Avaliações</a>
+        <a href="#galeria" style="color:#3c5c6b" style-hover="color:#12303f">Galeria</a>
+        <a href="#localizacao" style="color:#3c5c6b" style-hover="color:#12303f">Localização</a>
+        <a href="{{ waLink }}" target="_blank" rel="noopener" style="background:#12303f;color:#fff;padding:11px 18px;border-radius:999px;font-weight:600;font-size:14.5px;white-space:nowrap" style-hover="background:#1c7fa8;color:#fff">Chamar no WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" style="position:relative;padding:clamp(48px,7vw,92px) 20px clamp(56px,8vw,104px);background:linear-gradient(180deg,#eaf5fb 0%,#f6fafd 100%)">
+    <div style="max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:clamp(32px,5vw,64px);align-items:center">
+      <div>
+        <div style="display:inline-flex;align-items:center;gap:10px;background:#fff;border:1px solid #d8ecf5;padding:8px 14px 8px 10px;border-radius:999px;margin-bottom:22px">
+          <span style="color:#f2a71b;letter-spacing:1px;font-size:14px">★★★★★</span>
+          <span style="font-size:14px;font-weight:600;color:#12303f">4,9</span>
+          <span style="font-size:14px;color:#5d7b8a">· 28 avaliações no Google</span>
+        </div>
+        <h1 style="font-family:'Outfit',sans-serif;font-size:clamp(38px,5.4vw,62px);line-height:1.04;letter-spacing:-.03em;margin:0 0 20px;font-weight:700;text-wrap:balance">Suas roupas impecáveis, no prazo, com quem você confia.</h1>
+        <p style="font-size:clamp(17px,1.6vw,20px);line-height:1.55;color:#436270;margin:0 0 32px;max-width:33ch;text-wrap:pretty">Lavagem, secagem e passadoria profissionalizada em Castanhal. É só chamar no WhatsApp que a gente resolve.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px">
+          <a href="{{ waLink }}" target="_blank" rel="noopener" style="background:#12303f;color:#fff;padding:16px 26px;border-radius:999px;font-weight:600;font-size:16px;box-shadow:0 10px 24px -12px rgba(18,48,63,.6)" style-hover="background:#1c7fa8;color:#fff">Pedir orçamento no WhatsApp</a>
+          <a href="#servicos" style="background:#fff;border:1px solid #d8ecf5;color:#12303f;padding:16px 26px;border-radius:999px;font-weight:600;font-size:16px" style-hover="border-color:#7fd4c1;color:#12303f">Ver serviços</a>
+        </div>
+        <p style="margin:22px 0 0;font-size:14.5px;color:#6b8896">Aberto hoje · fecha às 18:00 · (91) 99814-7060</p>
+      </div>
+
+      <div style="position:relative">
+        <div style="border-radius:28px;overflow:hidden;border:1px solid #d8ecf5;background:#fff;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-image:repeating-linear-gradient(135deg,#f1f8fc 0 12px,#e7f3fa 12px 24px)">
+          <span style="font-family:ui-monospace,Menlo,monospace;font-size:13px;color:#7d9aa8;background:#fff;padding:8px 14px;border-radius:999px;border:1px solid #dcecf4">foto: fachada / interior da lavanderia</span>
+        </div>
+        <div style="position:absolute;bottom:-18px;left:-14px;background:#fff;border:1px solid #d8ecf5;border-radius:18px;padding:14px 18px;box-shadow:0 18px 40px -24px rgba(18,48,63,.5);animation:floaty 5s ease-in-out infinite">
+          <div style="font-family:'Outfit',sans-serif;font-weight:700;font-size:19px;color:#12303f">Cheirinho de limpo</div>
+          <div style="font-size:13.5px;color:#6b8896">bem passadas, prontas pra usar</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" style="padding:clamp(56px,8vw,100px) 20px;max-width:1180px;margin:0 auto">
+    <h2 style="font-family:'Outfit',sans-serif;font-size:clamp(30px,3.6vw,44px);letter-spacing:-.025em;margin:0 0 10px;font-weight:700">O que a gente faz</h2>
+    <p style="font-size:17px;color:#5d7b8a;margin:0 0 40px;max-width:46ch">Cuidado de verdade em cada peça — do tecido do dia a dia ao que você só usa em ocasião especial.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px">
+      <sc-for list="{{ servicos }}" as="s" hint-placeholder-count="3">
+        <div style="background:#fff;border:1px solid #e2edf4;border-radius:22px;padding:28px" style-hover="border-color:#7fd4c1;transform:translateY(-3px)">
+          <div style="width:52px;height:52px;border-radius:16px;background:#e9f7f3;display:flex;align-items:center;justify-content:center;margin-bottom:18px">{{ s.icon }}</div>
+          <h3 style="font-family:'Outfit',sans-serif;font-size:21px;margin:0 0 8px;font-weight:600">{{ s.titulo }}</h3>
+          <p style="margin:0;font-size:15.5px;line-height:1.6;color:#557684;text-wrap:pretty">{{ s.desc }}</p>
+        </div>
+      </sc-for>
+      <div style="border:1px dashed #cfe3ee;border-radius:22px;padding:28px;display:flex;flex-direction:column;justify-content:center;gap:8px;background:#fbfdfe">
+        <h3 style="font-family:'Outfit',sans-serif;font-size:19px;margin:0;font-weight:600;color:#3c5c6b">Precisa de algo específico?</h3>
+        <p style="margin:0;font-size:15px;color:#6b8896;line-height:1.55">Edredom, tapete, cortina, lavagem a seco — chama no WhatsApp e a gente combina.</p>
+        <a href="{{ waLink }}" target="_blank" rel="noopener" style="font-weight:600;font-size:15px;margin-top:6px">Perguntar agora →</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#12303f;color:#fff;padding:clamp(56px,8vw,96px) 20px">
+    <div style="max-width:1180px;margin:0 auto">
+      <h2 style="font-family:'Outfit',sans-serif;font-size:clamp(30px,3.6vw,44px);letter-spacing:-.025em;margin:0 0 44px;font-weight:700;color:#fff">Por que escolher a SoftClean</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px">
+        <sc-for list="{{ diferenciais }}" as="d" hint-placeholder-count="4">
+          <div>
+            <div style="width:46px;height:46px;border-radius:14px;background:rgba(127,212,193,.16);display:flex;align-items:center;justify-content:center;margin-bottom:16px">{{ d.icon }}</div>
+            <h3 style="font-family:'Outfit',sans-serif;font-size:19px;margin:0 0 7px;font-weight:600;color:#fff">{{ d.titulo }}</h3>
+            <p style="margin:0;font-size:15.5px;line-height:1.6;color:#a9c6d3;text-wrap:pretty">{{ d.desc }}</p>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section id="avaliacoes" style="padding:clamp(56px,8vw,100px) 20px;max-width:1180px;margin:0 auto">
+    <div style="display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:20px;margin-bottom:40px">
+      <div>
+        <h2 style="font-family:'Outfit',sans-serif;font-size:clamp(30px,3.6vw,44px);letter-spacing:-.025em;margin:0 0 8px;font-weight:700">Quem já é cliente conta</h2>
+        <p style="font-size:17px;color:#5d7b8a;margin:0">Avaliações reais de clientes no Google.</p>
+      </div>
+      <div style="background:#fff;border:1px solid #e2edf4;border-radius:20px;padding:16px 22px;text-align:center">
+        <div style="font-family:'Outfit',sans-serif;font-size:38px;font-weight:700;line-height:1">4,9</div>
+        <div style="color:#f2a71b;letter-spacing:2px;font-size:15px">★★★★★</div>
+        <div style="font-size:13.5px;color:#6b8896;margin-top:4px">28 avaliações</div>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px">
+      <sc-for list="{{ avaliacoes }}" as="a" hint-placeholder-count="3">
+        <figure style="background:#fff;border:1px solid #e2edf4;border-radius:22px;padding:28px;margin:0;display:flex;flex-direction:column;gap:16px">
+          <div style="color:#f2a71b;letter-spacing:2px;font-size:15px">★★★★★</div>
+          <blockquote style="margin:0;font-size:16.5px;line-height:1.65;color:#294857;text-wrap:pretty">{{ a.texto }}</blockquote>
+          <figcaption style="display:flex;align-items:center;gap:12px;margin-top:auto">
+            <span style="width:38px;height:38px;border-radius:50%;background:#e9f7f3;color:#12303f;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:'Outfit',sans-serif">{{ a.inicial }}</span>
+            <span>
+              <span style="display:block;font-weight:600;font-size:15px">{{ a.nome }}</span>
+              <span style="display:block;font-size:13.5px;color:#7d9aa8">Avaliação no Google</span>
+            </span>
+          </figcaption>
+        </figure>
+      </sc-for>
+    </div>
+  </section>
+
+  <section id="galeria" style="padding:0 20px clamp(56px,8vw,100px);max-width:1180px;margin:0 auto">
+    <h2 style="font-family:'Outfit',sans-serif;font-size:clamp(30px,3.6vw,44px);letter-spacing:-.025em;margin:0 0 28px;font-weight:700">Por dentro da SoftClean</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px">
+      <sc-for list="{{ galeria }}" as="g" hint-placeholder-count="4">
+        <div style="aspect-ratio:1/1;border-radius:20px;border:1px solid #e2edf4;background-image:repeating-linear-gradient(135deg,#f1f8fc 0 12px,#e7f3fa 12px 24px);display:flex;align-items:center;justify-content:center;padding:16px;text-align:center">
+          <span style="font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:#7d9aa8;background:#fff;padding:7px 12px;border-radius:999px;border:1px solid #dcecf4">{{ g }}</span>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <section id="localizacao" style="padding:clamp(56px,8vw,100px) 20px;background:#eaf5fb">
+    <div style="max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(28px,4vw,52px);align-items:start">
+      <div>
+        <h2 style="font-family:'Outfit',sans-serif;font-size:clamp(30px,3.6vw,44px);letter-spacing:-.025em;margin:0 0 20px;font-weight:700">Onde a gente fica</h2>
+        <p style="font-size:17.5px;line-height:1.6;color:#294857;margin:0 0 24px">R. Cmte. Francisco de Assis, 2271<br>Estrela, Castanhal - PA<br>CEP 68743-100</p>
+        <div style="background:#fff;border:1px solid #d8ecf5;border-radius:18px;padding:18px 20px;margin-bottom:24px">
+          <div style="font-weight:600;font-size:15px;margin-bottom:8px;display:flex;align-items:center;gap:8px"><span style="width:9px;height:9px;border-radius:50%;background:#3fbf93;display:inline-block"></span>Aberto agora · fecha às 18:00</div>
+          <div style="font-size:15px;color:#5d7b8a;line-height:1.7">Segunda a sexta · 08:00 – 18:00<br>Sábado · 08:00 – 12:00<br>Domingo · fechado</div>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:12px">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=R.+Cmte.+Francisco+de+Assis,+2271+-+Estrela,+Castanhal+-+PA,+68743-100" target="_blank" rel="noopener" style="background:#12303f;color:#fff;padding:15px 24px;border-radius:999px;font-weight:600;font-size:15.5px" style-hover="background:#1c7fa8;color:#fff">Como chegar</a>
+          <a href="tel:+5591998147060" style="background:#fff;border:1px solid #d8ecf5;color:#12303f;padding:15px 24px;border-radius:999px;font-weight:600;font-size:15.5px" style-hover="border-color:#7fd4c1;color:#12303f">(91) 99814-7060</a>
+        </div>
+      </div>
+      <div style="border-radius:24px;overflow:hidden;border:1px solid #d8ecf5;background:#fff;min-height:340px">
+        <iframe title="Mapa da SoftClean Lavanderia em Castanhal - PA" src="https://maps.google.com/maps?q=R.%20Cmte.%20Francisco%20de%20Assis%2C%202271%20-%20Estrela%2C%20Castanhal%20-%20PA%2C%2068743-100&z=16&output=embed" style="width:100%;height:100%;min-height:340px;border:0;display:block" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:clamp(56px,8vw,96px) 20px;text-align:center">
+    <div style="max-width:640px;margin:0 auto">
+      <h2 style="font-family:'Outfit',sans-serif;font-size:clamp(30px,4vw,48px);letter-spacing:-.03em;margin:0 0 16px;font-weight:700;text-wrap:balance">Manda uma mensagem. A gente cuida do resto.</h2>
+      <p style="font-size:18px;color:#5d7b8a;margin:0 0 30px;line-height:1.55">Responde rápido no WhatsApp: orçamento, prazo e retirada.</p>
+      <a href="{{ waLink }}" target="_blank" rel="noopener" style="display:inline-block;background:#12303f;color:#fff;padding:18px 32px;border-radius:999px;font-weight:600;font-size:17px;box-shadow:0 12px 28px -14px rgba(18,48,63,.6)" style-hover="background:#1c7fa8;color:#fff">Chamar no WhatsApp</a>
+    </div>
+  </section>
+
+  <footer id="contato" style="background:#12303f;color:#a9c6d3;padding:clamp(48px,6vw,72px) 20px 32px">
+    <div style="max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:36px">
+      <div>
+        <div style="font-family:'Outfit',sans-serif;font-weight:700;font-size:22px;color:#fff;margin-bottom:12px">Soft<span style="color:#7fd4c1">Clean</span></div>
+        <p style="margin:0;font-size:15px;line-height:1.6">Lavanderia em Castanhal - PA. Roupas limpas, cheirosas e no prazo.</p>
+      </div>
+      <div>
+        <h4 style="font-family:'Outfit',sans-serif;color:#fff;font-size:15px;margin:0 0 12px;font-weight:600">Contato</h4>
+        <p style="margin:0;font-size:15px;line-height:1.8"><a href="tel:+5591998147060" style="color:#a9c6d3">(91) 99814-7060</a><br><a href="{{ waLink }}" target="_blank" rel="noopener" style="color:#a9c6d3">WhatsApp</a></p>
+      </div>
+      <div>
+        <h4 style="font-family:'Outfit',sans-serif;color:#fff;font-size:15px;margin:0 0 12px;font-weight:600">Endereço</h4>
+        <p style="margin:0;font-size:15px;line-height:1.7">R. Cmte. Francisco de Assis, 2271<br>Estrela, Castanhal - PA</p>
+      </div>
+      <div>
+        <h4 style="font-family:'Outfit',sans-serif;color:#fff;font-size:15px;margin:0 0 12px;font-weight:600">Horário</h4>
+        <p style="margin:0;font-size:15px;line-height:1.7">Seg–Sex · 08:00–18:00<br>Sáb · 08:00–12:00<br>Dom · fechado</p>
+      </div>
+    </div>
+    <div style="max-width:1180px;margin:40px auto 0;padding-top:22px;border-top:1px solid rgba(169,198,211,.2);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:13.5px">
+      <span>© 2026 SoftClean Lavanderia</span>
+      <span>Instagram · Facebook — em breve</span>
+    </div>
+  </footer>
+
+  <a href="{{ waLink }}" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp" style="position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 30px -10px rgba(37,211,102,.75)" style-hover="background:#1fb857">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.8 14.03c-.24.68-1.4 1.3-1.94 1.35-.5.05-1.13.07-1.82-.11-.42-.11-.96-.29-1.65-.58-2.9-1.25-4.8-4.17-4.94-4.36-.15-.19-1.19-1.58-1.19-3.01 0-1.43.75-2.14 1.02-2.43.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.82 2.01.89 2.15.07.15.12.32.02.51-.1.19-.15.31-.29.48-.15.17-.31.38-.44.51-.15.14-.3.3-.13.59.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.15.46.12.63-.07.17-.19.73-.85.92-1.14.19-.29.39-.24.66-.14.27.1 1.69.8 1.98.94.29.15.48.22.55.34.07.12.07.7-.17 1.38Z"/></svg>
+  </a>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;whatsapp&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;5591998147060&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contato&quot;}}">
+const ic = (d) => React.createElement('svg', {width:26,height:26,viewBox:'0 0 24 24',fill:'none',stroke:'#12303f',strokeWidth:1.7,strokeLinecap:'round',strokeLinejoin:'round','aria-hidden':true}, d.map((p,i)=>React.createElement('path',{key:i,d:p})));
+const icL = (d) => React.createElement('svg', {width:24,height:24,viewBox:'0 0 24 24',fill:'none',stroke:'#7fd4c1',strokeWidth:1.7,strokeLinecap:'round',strokeLinejoin:'round','aria-hidden':true}, d.map((p,i)=>React.createElement('path',{key:i,d:p})));
+
+class Component extends DCLogic {
+  renderVals() {
+    const phone = this.props.whatsapp ?? '5591998147060';
+    return {
+      waLink: 'https://wa.me/' + phone + '?text=' + encodeURIComponent('Olá! Gostaria de um orçamento na SoftClean Lavanderia.'),
+      servicos: [
+        { titulo: 'Lavagem de roupas', desc: 'Roupa do dia a dia lavada com produtos que respeitam o tecido — e saem com cheiro de limpo.', icon: ic(['M4 6.5a2.5 2.5 0 0 1 2.5-2.5h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5z','M12 8.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8','M7 7h.01']) },
+        { titulo: 'Secagem', desc: 'Secadora profissional: sua roupa pronta rápido, sem depender do sol nem do tempo de Castanhal.', icon: ic(['M12 3c2 3 4 4.2 4 7a4 4 0 1 1-8 0c0-2.8 2-4 4-7','M6 20h12']) },
+        { titulo: 'Passadoria profissionalizada', desc: 'Camisa, calça, uniforme, roupa social — passadas peça por peça, prontas pra vestir.', icon: ic(['M3 14h13l4-4V7a2 2 0 0 0-2-2h-6l-2 3H5a2 2 0 0 0-2 2z','M6 18h9']) }
+      ],
+      diferenciais: [
+        { titulo: 'Entrega no prazo', desc: 'Combinou o dia, sua roupa está pronta. Sem enrolação.', icon: icL(['M12 7v5l3 2','M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18']) },
+        { titulo: 'Atendimento gentil', desc: 'Gente educada e atenciosa, do orçamento à retirada.', icon: icL(['M20 14a2 2 0 0 1-2 2H8l-4 3V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z','M9 10h.01','M13 10h.01']) },
+        { titulo: 'Cheiro de limpo', desc: 'O detalhe que todo cliente comenta: sai cheirosa e bem passada.', icon: icL(['M6 15c2-2 2-4 0-6','M12 17c3-3.5 3-6.5 0-10','M18 15c2-2 2-4 0-6']) },
+        { titulo: 'Equipe qualificada', desc: 'Profissionais que sabem tratar cada tecido do jeito certo.', icon: icL(['M12 3 4 7l8 4 8-4z','M4 12l8 4 8-4','M4 17l8 4 8-4']) }
+      ],
+      avaliacoes: [
+        { nome: 'Lourival Damasceno', inicial: 'L', texto: 'Serviço excelente e atendimento muito atencioso. As roupas voltam impecáveis e sempre no prazo combinado.' },
+        { nome: 'Wal Argollo', inicial: 'W', texto: 'Roupas cheirosas e muito bem passadas. Equipe educada e profissional do começo ao fim.' },
+        { nome: 'Laly Coldebella', inicial: 'L', texto: 'Atendimento gentil, entrega pontual e um cuidado com as peças que faz diferença. Recomendo demais.' }
+      ],
+      galeria: ['foto: fachada', 'foto: área de lavagem', 'foto: máquinas', 'foto: passadoria']
+    };
+  }
+}
+</script>
+</body>
+</html>
